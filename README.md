@@ -9,3 +9,8 @@ A set of extensions for the Spock testing framework.
 
 The annotation is applied to specification methods and receives a method name as a value.
 The method whos name is specified will be invoked once before the specification method is executed, regardless of any iteration.
+
+###### AfterFeatureCleanupExtensionAnnotation ######
+
+The annotation is applied to specification methods and receives a method name as a value.
+The method whos name is specified will be invoked once after the specification method is executed, regardless of any iteration.
